@@ -70,7 +70,7 @@
                            <h4 id="compare_price_display" class="js-compare-price-display price-compare font-weight-normal" style="display:block;">{{"28000" | money }}</h4>
                         </span>
                         <span class="d-inline-block mr-3">
-                            <h2 class="js-price-display text-primary" id="price_display">{{"18200" | money }}</h2>
+                            <h2 class="js-price-display" id="price_display" style="color: #FF0000;">{{"18200" | money }}</h2> <!-- Cambia el color aquí -->
                         </span>
                     </div>
                 {% else %}
@@ -79,7 +79,7 @@
                            <h4 id="compare_price_display" class="js-compare-price-display price-compare font-weight-normal" style="display:block;">{{"280000" | money }}</h4>
                         </span>
                         <span class="d-inline-block mr-3">
-                            <h2 class="js-price-display text-primary" id="price_display">{{"182000" | money }}</h2>
+                            <h2 class="js-price-display" id="price_display" style="color: #FF0000;">{{"182000" | money }}</h2> <!-- Cambia el color aquí -->
                         </span>
                     </div>
                 {% endif %}
